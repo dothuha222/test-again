@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 </head>
 <body>
     <div class="main">
@@ -19,6 +20,38 @@
                 <a href="#">Thành tích</a>
                 <a href="#">Sự kiện</a>
             </div>
+
+            <!-- Mobile -->
+            <label for="nav-mobile-input" class="nav-mobile-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <input type="checkbox" name="" hidden class="nav_input" id="nav-mobile-input">
+
+             <!-- Overlay for mobile -->
+            <label for="nav-mobile-input" class="nav_overlay"></label>
+
+            <!-- Nav Mobile -->
+            <nav class="nav_mobile">
+                <label for="nav-mobile-input" class="nav_mobile-close">
+                    <i class="fas fa-times"></i>
+                </label>
+                <ul class="nav__mobile-list">
+                    <li>
+                        <a href="" class="nav__mobile-link">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__mobile-link">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__mobile-link">Thành tích</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__mobile-link">Sự kiện</a>
+                    </li>
+                   
+                </ul>
+            </nav>
         </div>
 
         <!-- Content -->
